@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/esm/tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "ESNext"
+  },
+  "ts-node": {
+    "swc": true,
+    "esm": true
+  }
+}
